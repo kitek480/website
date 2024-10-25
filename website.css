@@ -1,0 +1,41 @@
+.mario {
+    background-color: rgb(107, 7, 7);
+    text-align: center;
+    color: white;
+    border: none;
+    height: 100px;
+    width: 100px;
+    font: xx-small;
+    border-radius: 50px;
+    cursor: not-allowed;
+    margin-top: 10px;
+    margin-left: 0px;
+    font-weight: bolder;
+    font-family: "Redacted Script";
+    font-size: 15px;
+    transition: opacity 0.5s,
+    box-shadow 0.2s,
+    height 1s,
+    width 1s,
+    border-radius 1s;
+    box-shadow: -5px 5px 0 rgba(0, 0, 0, 0.336);
+    vertical-align: top;
+}
+.mario:hover {
+    opacity: 0.9;
+    height: 105px;
+    width: 105px;
+    border-radius: 53px;
+}
+.mario:active {
+    opacity: 0.6;
+    box-shadow: 5px 5px 10px black;
+    opacity: 0.9;
+    height: 500px;
+    width: 500px;
+    border-radius: 250px;
+    transition: box-shadow 0.2s,
+    height 10s,
+    width 10s,
+    border-radius 10s;
+}
